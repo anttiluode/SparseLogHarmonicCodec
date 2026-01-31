@@ -81,6 +81,28 @@ texture** in sound.
 
 ------------------------------------------------------------------------
 
+## 🧬 SIGH EDITION (Genetic Auto-EQ)
+
+**File:** `holo_law_code_gaeq.py`
+
+This version introduces **Inductive Bias** to the extraction process. Instead 
+of blindly selecting the loudest harmonics, the codec allows for **Spectral Guidance**:
+
+Interactive Sigh-EQ: You can "draw" the priority curve. If you draw a bandpass
+filter, the codec will prioritize harmonics in that range, even if they aren't the loudest.
+
+Genetic Optimization: Includes a real-time Genetic Algorithm that spawns populations 
+of EQ curves, tests them against the audio, and "breeds" the ones that best reconstruct 
+the human vocal range (300Hz–3400Hz).
+
+Pure Law: This version discards the "Ghost" (residual) entirely to focus on maximizing 
+the intelligibility of the sparse geometric structure.
+
+Use this version if: You want to experiment with *evolutionary signal processing* or 
+want to isolate specific features (like vocals) in the compressed file.
+
+------------------------------------------------------------------------
+
 ## Features
 
 -   Tkinter-based interactive GUI
