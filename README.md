@@ -2,12 +2,7 @@
 
 **A Parametric Audio Codec based on Sparse Log-Harmonic Decomposition**
 
-::: {align="center"}
-`<img src="./image.png" alt="LawCodecStudio GUI" width="800"/>`{=html}
-`<br/>`{=html} `<b>`{=html}17 minutes of audio ➔ 945 KB (.law
-file)`</b>`{=html}`<br/>`{=html} Compression Ratio: \~50×
-:::
-
+![image](image.png)
 ------------------------------------------------------------------------
 
 ## Abstract
