@@ -103,6 +103,18 @@ want to isolate specific features (like vocals) in the compressed file.
 
 ------------------------------------------------------------------------
 
+# 🧠 NEURAL VARIABLE EDITION
+
+File: holo_law_neural_variable.py
+
+This was made after I realized the sound sounds better on my videos than when I listen 
+to them straight. I realize it was sort of video reverb effect and chorus. It adds a bit 
+of eq and chorus. Also, it does the limbo by turnint the 17 minute track to a bit over 
+100 k by turning it to unrecognizable paddy mush if you want at lowest settings. A 
+fun party gag for all audio engineers. A challenge, turn this to hi fi signal. They'll 
+die trying. 
+
+
 ## Features
 
 -   Tkinter-based interactive GUI
